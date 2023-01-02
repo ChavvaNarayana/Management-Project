@@ -1,6 +1,6 @@
 const router = require("express").Router()
-const Class = require("../Models/ClassModal")
-const Student = require("../Models/StudentModal")
+const Class = require("../Models/Class")
+const Student = require("../Models/Student")
 
 // Test Case 1 - Create a new Classs
 router.post("/v1/myClass", async (req, res) => {
